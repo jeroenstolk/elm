@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build && npm run copy-redirects"
-  publish = "dist"
+  command = "elm-app build"
+  publish = "build"
 
 [[redirects]]
   from = "/*"
